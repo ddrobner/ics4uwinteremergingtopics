@@ -9,18 +9,13 @@ export default {
 
     return [
       {
-        path: '/blog',
-        getData: () => ({
-          posts,
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          template: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
+        path: 'whatisml',
+        template: "src/pages/whatisml.js"
       },
+      {
+        path: 'examples',
+        template: "src/pages/examples.js"
+      }
     ]
   },
   plugins: [
