@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9073f92a-655a-40a4-a616-899e22f32c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/examples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/react-static-templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/react-static-templates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.9.6.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.9.6.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dynamic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/examples.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/examples.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/static.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589692199050</updated>
       <workItem from="1589692203157" duration="4580000" />
-      <workItem from="1589989181056" duration="2018000" />
+      <workItem from="1589989181056" duration="4758000" />
+      <workItem from="1591158151550" duration="7887000" />
     </task>
     <servers />
   </component>
@@ -72,9 +63,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#ESLint/0.0.1920.1040/-245.-1080.2560.1040@0.0.1920.1040" timestamp="1589989227020" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589694694898">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590345870068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-245.-1080.2560.1040@0.0.1920.1040" timestamp="1589694694898" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-245.-1080.2560.1040@0.0.1920.1040" timestamp="1590345870068" />
   </component>
 </project>
