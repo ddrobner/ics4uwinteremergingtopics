@@ -15,6 +15,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/whatisml">What Is Machine Learning?</Link>
         <Link to="/examples">Examples Of Machine Learning</Link>
+        <Link to="/history">History</Link>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>

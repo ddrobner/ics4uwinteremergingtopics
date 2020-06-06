@@ -3,10 +3,6 @@ import axios from 'axios'
 
 export default {
   getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
-
     return [
       {
         path: 'whatisml',
@@ -15,6 +11,10 @@ export default {
       {
         path: 'examples',
         template: "src/pages/examples.js"
+      },
+      {
+        path: 'history',
+        template: "src/pages/hist.js"
       }
     ]
   },
