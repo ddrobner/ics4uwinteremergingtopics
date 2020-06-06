@@ -1,8 +1,7 @@
 {
   "homepage": "ddrobner.github.io/ics4uwinteremergingtopics",
-  "name": "ics4uwinteremergingtopics",
+  "name": "ml-emerging-topics",
   "main": "index.js",
-  "private": false,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

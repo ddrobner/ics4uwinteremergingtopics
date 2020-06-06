@@ -12,33 +12,32 @@
   "disableRuntime": false,
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
-  "silent": false,
   "entry": "index.js",
   "plugins": [
     [
-      "/mnt/c/Users/David/ics4uwinteremergingtopics/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      "C:\\Users\\David\\ics4uwinteremergingtopics\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
       {
-        "location": "/mnt/c/Users/David/ics4uwinteremergingtopics/src/pages"
+        "location": "C:\\Users\\David\\ics4uwinteremergingtopics\\src\\pages"
       }
     ],
-    "/mnt/c/Users/David/ics4uwinteremergingtopics/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/mnt/c/Users/David/ics4uwinteremergingtopics/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/mnt/c/Users/David/ics4uwinteremergingtopics"
+    "C:\\Users\\David\\ics4uwinteremergingtopics\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\David\\ics4uwinteremergingtopics\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\David\\ics4uwinteremergingtopics"
   ],
   "paths": {
-    "ROOT": "/mnt/c/Users/David/ics4uwinteremergingtopics",
-    "SRC": "/mnt/c/Users/David/ics4uwinteremergingtopics/src",
-    "DIST": "/mnt/c/Users/David/ics4uwinteremergingtopics/dist",
-    "ASSETS": "/mnt/c/Users/David/ics4uwinteremergingtopics/dist",
-    "PLUGINS": "/mnt/c/Users/David/ics4uwinteremergingtopics/plugins",
-    "TEMP": "/mnt/c/Users/David/ics4uwinteremergingtopics/tmp",
-    "ARTIFACTS": "/mnt/c/Users/David/ics4uwinteremergingtopics/artifacts",
-    "PUBLIC": "/mnt/c/Users/David/ics4uwinteremergingtopics/public",
-    "NODE_MODULES": "/mnt/c/Users/David/ics4uwinteremergingtopics/node_modules",
-    "EXCLUDE_MODULES": "/mnt/c/Users/David/ics4uwinteremergingtopics/node_modules",
-    "PACKAGE": "/mnt/c/Users/David/ics4uwinteremergingtopics/package.json",
-    "HTML_TEMPLATE": "/mnt/c/Users/David/ics4uwinteremergingtopics/dist/index.html",
-    "STATIC_DATA": "/mnt/c/Users/David/ics4uwinteremergingtopics/dist/staticData"
+    "ROOT": "C:\\Users\\David\\ics4uwinteremergingtopics",
+    "SRC": "C:\\Users\\David\\ics4uwinteremergingtopics\\src",
+    "DIST": "C:\\Users\\David\\ics4uwinteremergingtopics\\dist",
+    "ASSETS": "C:\\Users\\David\\ics4uwinteremergingtopics\\dist",
+    "PLUGINS": "C:\\Users\\David\\ics4uwinteremergingtopics\\plugins",
+    "TEMP": "C:\\Users\\David\\ics4uwinteremergingtopics\\tmp",
+    "ARTIFACTS": "C:\\Users\\David\\ics4uwinteremergingtopics\\artifacts",
+    "PUBLIC": "C:\\Users\\David\\ics4uwinteremergingtopics\\public",
+    "NODE_MODULES": "C:\\Users\\David\\ics4uwinteremergingtopics\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\David\\ics4uwinteremergingtopics\\node_modules",
+    "PACKAGE": "C:\\Users\\David\\ics4uwinteremergingtopics\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\David\\ics4uwinteremergingtopics\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\David\\ics4uwinteremergingtopics\\dist\\staticData"
   },
   "siteRoot": "/",
   "basePath": "",
