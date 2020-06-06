@@ -1,16 +1,51 @@
 
 
-  
-// Template Map
-export default {
-  'C:/Users/David/ics4uwinteremergingtopics/src/pages/404.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/404.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/about.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/about.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/examples.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/examples.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/hist.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/hist.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/how.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/how.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/index.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/index.js').default,
-'C:/Users/David/ics4uwinteremergingtopics/src/pages/whatisml.js': require('C:/Users/David/ics4uwinteremergingtopics/src/pages/whatisml.js').default
+import React from 'react'
+import universal, { setHasBabelPlugin } from 'react-universal-component'
+
+setHasBabelPlugin()
+
+const universalOptions = {
+  loading: () => null,
+  error: props => {
+    console.error(props.error);
+    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
+  },
+  ignoreBabelRename: true
 }
 
-export const notFoundTemplate = 'C:/Users/David/ics4uwinteremergingtopics/src/pages/404.js'
+const t_0 = universal(import('__react_static_root__/src/pages/404.js'), universalOptions)
+      t_0.template = '__react_static_root__/src/pages/404.js'
+      
+const t_1 = universal(import('__react_static_root__/src/pages/about.js'), universalOptions)
+      t_1.template = '__react_static_root__/src/pages/about.js'
+      
+const t_2 = universal(import('__react_static_root__/src/pages/examples.js'), universalOptions)
+      t_2.template = '__react_static_root__/src/pages/examples.js'
+      
+const t_3 = universal(import('__react_static_root__/src/pages/hist.js'), universalOptions)
+      t_3.template = '__react_static_root__/src/pages/hist.js'
+      
+const t_4 = universal(import('__react_static_root__/src/pages/how.js'), universalOptions)
+      t_4.template = '__react_static_root__/src/pages/how.js'
+      
+const t_5 = universal(import('__react_static_root__/src/pages/index.js'), universalOptions)
+      t_5.template = '__react_static_root__/src/pages/index.js'
+      
+const t_6 = universal(import('__react_static_root__/src/pages/whatisml.js'), universalOptions)
+      t_6.template = '__react_static_root__/src/pages/whatisml.js'
+      
+
+// Template Map
+export default {
+  '__react_static_root__/src/pages/404.js': t_0,
+'__react_static_root__/src/pages/about.js': t_1,
+'__react_static_root__/src/pages/examples.js': t_2,
+'__react_static_root__/src/pages/hist.js': t_3,
+'__react_static_root__/src/pages/how.js': t_4,
+'__react_static_root__/src/pages/index.js': t_5,
+'__react_static_root__/src/pages/whatisml.js': t_6
+}
+// Not Found Template
+export const notFoundTemplate = "__react_static_root__/src/pages/404.js"
 
