@@ -15,7 +15,15 @@ export default {
       {
         path: 'history',
         template: "src/pages/hist.js"
-      }
+      },
+      {
+        path: 'howitworks',
+        template: "src/pages/how.js"
+      },
+      {
+      path: 'about',
+      template: "src/pages/about.js"
+  }
     ]
   },
   plugins: [

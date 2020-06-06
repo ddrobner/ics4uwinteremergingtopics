@@ -1,4 +1,5 @@
 import React from 'react';
+import mlimg from './img/ml.jpg'
 
 export default () => {
   return(
@@ -24,7 +25,7 @@ export default () => {
             </p>
           </div>
           <div style={{maxWidth: "50%", float: "right", marginRight: "25%", marginTop: "-11%"}}>
-            <img style={{width: 389, height: 219}} src={"https://www.gigabitmagazine.com/sites/default/files/styles/slider_detail/public/topic/image/GettyImages-1097225424.jpg?itok=VVHzg1x_"}/>
+            <img style={{width: 389, height: 219}} src={mlimg}/>
           </div>
         </div>
         {/* End of first text and image block */}
